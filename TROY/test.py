@@ -1,24 +1,3 @@
-<<<<<<< HEAD
-=======
-"""
->>>>>>> e85ce94 (Initial commit)
-import cv2
-
-# cap = cv2.VideoCapture(0)
-cap = cv2.VideoCapture(0, cv2.CAP_DSHOW)
-
-while True:
-    ret, frame = cap.read()
-    cv2.imshow('Webcam Test', frame)
-    if cv2.waitKey(1) & 0xFF == ord('q'):
-        break
-
-cap.release()
-cv2.destroyAllWindows()
-<<<<<<< HEAD
-=======
-"""
-
 import cv2
 import time
 
@@ -43,5 +22,3 @@ else:
 
     # Release the camera
     cap.release()
-
->>>>>>> e85ce94 (Initial commit)
