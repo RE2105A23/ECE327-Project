@@ -120,9 +120,9 @@ def main():
                     webbrowser.open("http://www.google.com")
                     activated = False  # Complete the action and exit the inner loop
 
-                elif "open main" in command:
+                elif "open mail" in command:
                     respond("Opening FaceTime.")
-                    open_mac_app("FaceTime")
+                    open_mac_app("Mail")
                     activated = False  # Complete the action and exit the inner loop
 
                 elif "open calendar" in command:
