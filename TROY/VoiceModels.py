@@ -148,8 +148,8 @@ def main():
 
 
 if __name__ == "__main__":
-    #respond('All systems nominal.')
-    #respond('Welcome to Lovely University')
+    respond('All systems nominal.')
+    respond('Welcome to Lovely University')
     try:
         main()
     except KeyboardInterrupt:

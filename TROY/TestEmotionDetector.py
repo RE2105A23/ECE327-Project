@@ -6,8 +6,8 @@ from tensorflow.keras.models import load_model
 emotion_dict = {0: "Angry", 1: "Disgusted", 2: "Fearful", 3: "Happy", 4: "Neutral", 5: "Sad", 6: "Surprised"}
 
 # Load the model from the saved model directory
-# emotion_model = load_model('/Users/sjsb/git/ece327/Emotion_detection_with_CNN-main/model/emotion_model.h5')
-emotion_model = load_model('/Users/sjsb/git/ece327/Emotion_detection_with_CNN-main/model/emotion_model')
+# emotion_model = load_model('/Volumes/X/git/ece327/Emotion_detection_with_CNN-main/model/emotion_model.h5')
+emotion_model = load_model('/Volumes/X/git/ece327/Emotion_detection_with_CNN-main/model/emotion_model')
 print("Loaded model from disk")
 
 # Start the webcam feed or video file
